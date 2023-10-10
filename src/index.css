@@ -12,5 +12,20 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-}
 
+  --text-color: #000853;
+  --label-font-size: 16px;
+  --label-line-height: 19.36px;
+
+  --default-border-color: #CBB6E5;
+  --active-border-color: #761BE4;
+  --error-border-color: #ED4545;
+
+  --default-backround-color: #FFFFFF;
+  --active-backround-color: #FAF9FA;
+  --error-backround-color: #FEECEC;
+
+  --inactive-button-color: #CBB6E5;
+  --default-button-color: #761BE4;
+  --hover-button-color: #6A19CD;
+}
