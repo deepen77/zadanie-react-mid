@@ -1,12 +1,4 @@
-interface IFormValues {
-  firstname: string;
-  lastname: string;
-  email: string;
-  age: string;
-  files: unknown[];
-  date: string;
-  time: string;
-}
+import { IFormValues } from "../../../AppTypes/AppTypes.type";
 
 interface ITimeSlot {
   formValues: IFormValues;
