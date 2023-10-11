@@ -1,0 +1,43 @@
+/* Customized MUI Slider */
+
+.MuiSlider-thumb {
+  color: #761BE4;
+}
+
+
+.MuiSlider-track {
+   color: #761BE4;
+}
+
+.MuiSlider-root {
+  color: #CBB6E5;
+  opacity: 1;
+}
+
+div .MuiSlider-valueLabel {
+   top: 60px;
+   border: 1px solid #CBB6E5;
+   background-color: white;
+   color: #761BE4;
+   font-size: 12px;
+   font-weight: 500;
+   border-radius: 5px;
+
+}
+
+div .MuiSlider-valueLabel:before {
+   top: -10px;
+   border-left: 1px solid #CBB6E5;
+   border-top: 1px solid #CBB6E5
+}
+
+.MuiSlider-valueLabelOpen
+{
+   background-color: red;
+}
+
+ div .MuiSlider-markLabel {
+  top: -10px;
+  font-size: 12px;
+  font-weight: 400;
+}

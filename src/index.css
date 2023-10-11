@@ -1,11 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #f0eaf8;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -14,18 +15,24 @@
   -webkit-text-size-adjust: 100%;
 
   --text-color: #000853;
+  --secondaryTextColor: #761be4;
   --label-font-size: 16px;
   --label-line-height: 19.36px;
 
-  --default-border-color: #CBB6E5;
-  --active-border-color: #761BE4;
-  --error-border-color: #ED4545;
+  --default-border-color: #cbb6e5;
+  --active-border-color: #761be4;
+  --error-border-color: #ed4545;
 
-  --default-backround-color: #FFFFFF;
-  --active-backround-color: #FAF9FA;
-  --error-backround-color: #FEECEC;
+  --default-backround-color: #ffffff;
+  --active-backround-color: #faf9fa;
+  --error-backround-color: #feecec;
 
-  --inactive-button-color: #CBB6E5;
-  --default-button-color: #761BE4;
-  --hover-button-color: #6A19CD;
+  --inactive-button-color: #cbb6e5;
+  --default-button-color: #761be4;
+  --hover-button-color: #6a19cd;
+}
+
+input,
+label {
+  display: block;
 }

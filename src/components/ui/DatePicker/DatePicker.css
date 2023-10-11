@@ -1,0 +1,98 @@
+/* Customizing data picker */
+
+.react-datepicker {
+  border-radius: 8px;
+}
+
+.react-datepicker__month-container {
+  border: 1px solid #cbb6e5;
+  padding: 5px;
+  border-radius: 8px;
+}
+.react-datepicker__day-names {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+
+.react-datepicker__header {
+  text-align: center;
+  background-color: #ffffff;
+  border-bottom: none;
+  border-top-left-radius: 0.3rem;
+  padding: 8px 0;
+  position: relative;
+}
+
+.react-datepicker__current-month,
+.react-datepicker-time__header,
+.react-datepicker-year-header {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.react-datepicker__day,
+.react-datepicker__month-text,
+.react-datepicker__quarter-text,
+.react-datepicker__year-text {
+  font-weight: 600;
+  line-height: 19.36px;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.react-datepicker__day-names,
+.react-datepicker__week {
+  padding: 10px;
+}
+
+.react-datepicker__day--keyboard-selected {
+  background-color: #761be4;
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+  width: 22px;
+  height: 22px;
+  display: inline-block;
+}
+
+.react-datepicker__day--keyboard-selected:hover {
+  background-color: #761be4;
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+  width: 22px;
+  height: 22px;
+  display: inline-block;
+}
+
+.react-datepicker__day:hover {
+  background-color: #f0f0f0;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.react-datepicker__navigation-icon--previous {
+  right: -5px;
+}
+
+.react-datepicker__navigation-icon {
+  position: relative;
+  top: 1px;
+  font-size: 20px;
+  width: 0;
+}
+
+.datepicker__navigation-icon::before {
+  border-color: #ccc;
+  border-style: solid;
+  border-width: 3px 3px 0 0;
+  content: "";
+  display: block;
+  height: 9px;
+  position: absolute;
+  top: 6px;
+  width: 9px;
+}
+.react-datepicker__navigation-icon {
+    top:12px
+}
