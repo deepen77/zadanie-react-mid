@@ -1,10 +1,11 @@
 {
-  "homepage": "https://deepen77.github.io/reactmidtask",
+  "homepage": "https://deepen77.github.io/reactmidtask/",
   "name": "zadanie-react-mid",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
     "dev": "vite",
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
